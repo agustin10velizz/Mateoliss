@@ -1,6 +1,6 @@
 * {
     margin: 0%;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Rubik', sans-serif;
     padding: 0%;
 }
 
@@ -9,46 +9,11 @@
 
 
 
-header {
-    text-align: center;
-    margin: auto;
-    padding: auto;
-    flex-direction: column;
-    font-size: large;
-    display: grid;
-    background-image: linear-gradient(to right top, #16d4c8, #00c8d5, #00bbe0, #00ace4, #009ce2, #0f9fe5, #18a2e8, #20a5eb, #00bcf4, #00d2f8, #20e7f6, #5ffbf1);
-}
-
-
-
-nav ul {
+.header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 40px;
-}
-
-li {
-    list-style-type: none;
-    text-decoration: none;
-
-}
-
-nav ul li a {
-    color: black;
-    text-decoration: none;
-    margin-right: 25px;
-}
-
-.titulo {
-    text-align: center;
-    margin: auto;
-    font-size: 25px;
-}
-
-.link-titulo {
-    text-decoration: none;
-    color: black;
+    justify-content: end;
+   flex-direction: column-reverse;
+   padding: 30px
 }
 
 .subtitulo {
@@ -111,7 +76,7 @@ nav ul li a {
 
 
 b:hover {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
@@ -166,13 +131,15 @@ footer {
 
 /* productos */
 
-.productos-titulo {
+.productos-titulo , .productos-titulo-2 {
     text-align: center;
     padding: 12px;
+    margin-top: 10px;
     margin: auto;
     font-size: 20px;
     background-color: bisque;
 }
+
 
 
 
@@ -189,7 +156,7 @@ footer {
 .comprar-1 {
     text-decoration: none;
     margin: 10px;
-    display: inline-block;
+   
     color: black;
 }
 
@@ -197,6 +164,7 @@ footer {
     width: 25%;
     border-radius: 15px;
     border: 10px solid rgb(9, 150, 150);
+    display: inline-block;
 
 }
 
@@ -206,7 +174,7 @@ footer {
 .nosotros {
     margin: auto;
     font-size: 40px;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
     background-color: bisque;
 
@@ -241,7 +209,7 @@ footer {
 .titulo-contacto {
     text-align: center;
     font-size: 25px;
-    padding: 20px;
+    padding: 30px;
 
 }
 
