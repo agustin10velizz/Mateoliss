@@ -1,0 +1,165 @@
+* {
+  margin: 0%;
+  font-family: 'Rubik', sans-serif;
+  padding: 0%; }
+
+.header {
+  display: flex;
+  justify-content: end;
+  flex-direction: column-reverse;
+  padding: 30px; }
+
+.subtitulo {
+  background-color: bisque;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px; }
+
+.seccioncentral {
+  background-color: bisque;
+  justify-items: center; }
+
+.productos-inicio {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 15px;
+  margin-top: 25px;
+  border-radius: 20px;
+  padding: 15px;
+  background-image: linear-gradient(to right top, #16d4c8, #00c8d5, #00bbe0, #00ace4, #009ce2, #0f9fe5, #18a2e8, #20a5eb, #00bcf4, #00d2f8, #20e7f6, #5ffbf1);
+  font-size: 25px; }
+
+.inicio, .inicio-video {
+  width: 550px;
+  height: 350px;
+  border-radius: 15px;
+  border: 10px solid #099696;
+  margin-top: 25px; }
+
+.comprar {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  margin: 5px;
+  color: black; }
+
+b:hover {
+  color: white;
+  cursor: pointer; }
+
+.productos-titulo {
+  text-align: center;
+  padding: 12px;
+  margin-top: 10px;
+  margin: auto;
+  font-size: 20px;
+  background-color: bisque; }
+
+.productos-comprar {
+  background-image: linear-gradient(to right top, #16d4c8, #00c8d5, #00bbe0, #00ace4, #009ce2, #0f9fe5, #18a2e8, #20a5eb, #00bcf4, #00d2f8, #20e7f6, #5ffbf1);
+  border-radius: 20px;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  font-family: 'Varela Round', sans-serif; }
+
+.comprar-1 {
+  text-decoration: none;
+  margin: 10px;
+  color: black; }
+
+.imagenes-productos {
+  width: 25%;
+  border-radius: 15px;
+  border: 10px solid #099696;
+  display: inline-block; }
+
+.nosotros {
+  margin: auto;
+  font-size: 40px;
+  padding: 30px;
+  text-align: center;
+  background-color: bisque; }
+
+.texto-nosotros {
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 23px;
+  border-radius: 15px;
+  border: 10px solid black;
+  background-image: linear-gradient(to right top, #16d4c8, #00c7df, #00b7f5, #00a3ff, #0089ff, #008cff, #008eff, #0091ff, #00b1ff, #00ccff, #00e5fd, #5ffbf1);
+  padding: 20px;
+  display: flex; }
+
+.nosotros-fondo {
+  background-color: bisque; }
+
+.img-nosotros {
+  width: 25%;
+  height: 25%; }
+
+.titulo-contacto {
+  text-align: center;
+  font-size: 25px;
+  padding: 30px; }
+
+.enviar {
+  margin-bottom: 10px;
+  text-align: center; }
+
+.img-contacto {
+  text-align: center; }
+
+.texto-contacto {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px; }
+
+.tips-titulo {
+  text-align: center;
+  font-size: 15px;
+  margin: auto;
+  padding-top: 10px;
+  background-color: bisque;
+  border-radius: 50px;
+  text-align: center; }
+
+/*  
+.tips-texto {
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    border-radius: 15%;
+   
+
+}
+*/
+.tips-videos {
+  padding-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 100px; }
+
+.fondo-tips {
+  background-color: bisque; }
+
+.videos {
+  margin: 2px;
+  border-radius: 15px;
+  border: 10px solid #16c59f; }
+
+footer {
+  text-align: center;
+  background-image: linear-gradient(to right top, #16d4c8, #00c7df, #00b7f5, #00a3ff, #0089ff, #008cff, #008eff, #0091ff, #00b1ff, #00ccff, #00e5fd, #5ffbf1);
+  font-family: 'Varela Round', sans-serif;
+  padding-bottom: 2px; }

@@ -1,0 +1,32 @@
+.nosotros {
+    margin: auto;
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+.texto-nosotros {
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 23px;
+    border-radius: 15px;
+    border: 10px solid rgb(0, 0, 0);
+    background-image: linear-gradient(to right top, #16d4c8, #00c7df, #00b7f5, #00a3ff, #0089ff, #008cff, #008eff, #0091ff, #00b1ff, #00ccff, #00e5fd, #5ffbf1);
+    padding: 20px;
+    display: flex;
+   
+}
+
+.nosotros-fondo {
+    background-color: bisque;
+}
+
+.img-nosotros {
+    width: 25%;
+    height: 25%;
+
+}

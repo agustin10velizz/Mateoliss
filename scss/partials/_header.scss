@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    justify-content: end;
+   flex-direction: column-reverse;
+   padding: 30px;
+}
+
+.subtitulo {
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+ 
+.seccioncentral{
+    background-color: bisque;
+    justify-items: center;
+}
+
+.productos-inicio {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 15px;
+    background-image: linear-gradient(to right top, #16d4c8, #00c8d5, #00bbe0, #00ace4, #009ce2, #0f9fe5, #18a2e8, #20a5eb, #00bcf4, #00d2f8, #20e7f6, #5ffbf1);
+    font-size: 25px;
+}
+
+.inicio , .inicio-video {
+    width: 550px;
+    height: 350px;
+    border-radius: 15px;
+    border: 10px solid rgb(9, 150, 150);
+    margin-top: 25px;
+
+}
+
+.comprar {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    margin: 5px;
+    color: black;
+
+}
+
+b:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+

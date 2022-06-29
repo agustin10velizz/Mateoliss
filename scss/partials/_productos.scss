@@ -1,0 +1,34 @@
+.productos-titulo  {
+    text-align: center;
+    padding: 12px;
+    margin-top: 10px;
+    margin: auto;
+    font-size: 20px;
+    background-color: bisque;
+    
+}
+
+
+
+.productos-comprar {
+    background-image: linear-gradient(to right top, #16d4c8, #00c8d5, #00bbe0, #00ace4, #009ce2, #0f9fe5, #18a2e8, #20a5eb, #00bcf4, #00d2f8, #20e7f6, #5ffbf1);
+    border-radius: 20px;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.comprar-1 {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.imagenes-productos {
+    width: 25%;
+    border-radius: 15px;
+    border: 10px solid rgb(9, 150, 150);
+    display: inline-block;
+}
