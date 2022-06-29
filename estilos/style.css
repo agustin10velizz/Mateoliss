@@ -104,26 +104,21 @@ b:hover {
   width: 25%;
   height: 25%; }
 
+.inicio-contacto {
+  background-color: bisque;
+  padding-bottom: 10px;
+  padding-right: 20px; }
+
+.boton-contacto {
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: none;
+  border-radius: 8px; }
+
 .titulo-contacto {
   text-align: center;
   font-size: 25px;
   padding: 30px; }
-
-.enviar {
-  margin-bottom: 10px;
-  text-align: center; }
-
-.img-contacto {
-  text-align: center; }
-
-.texto-contacto {
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 200px; }
 
 .tips-titulo {
   text-align: center;
