@@ -4,13 +4,20 @@
     padding: 0%;
 }
 
-
-
-
 @import "./partials/header";
+
 @import "./partials/productos";
+
 @import "./partials/quienes-somos";
+
 @import "./partials/contacto";
+
 @import "./partials/tips";
+
 @import "./partials/footer";
 
+@import "./mixin";
+
+@import "./base/variables";
+
+@import "./base/extend";

@@ -1,7 +1,18 @@
+@import "../base/variables";
+
+
 .inicio-contacto{
-    background-color: bisque;
+    background-color:  $colorSecundario;
     padding-bottom: 10px;
     padding-right: 20px;
+
+    .titulo-contacto {
+      text-align: center;
+      font-size: 25px;
+      padding: 30px;
+  
+  }
+
 }
 
 .boton-contacto{
@@ -13,12 +24,13 @@
 
 
 
-.titulo-contacto {
-    text-align: center;
-    font-size: 25px;
-    padding: 30px;
+.formulario{
+  margin: 20px;
 
+    .formulario-nombre{
+      border: 5px ridge $colorPrimario;
+      
+    }
 }
-
 
 

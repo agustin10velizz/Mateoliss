@@ -1,3 +1,7 @@
+@import "./mixin";
+@import "../base/variables";
+@import "../base/extend";
+
 .header {
     display: flex;
     justify-content: end;
@@ -6,38 +10,35 @@
 }
 
 .subtitulo {
-    background-color: bisque;
+    background-color:  $colorSecundario;
     text-align: center;
     padding: 10px;
     font-size: 15px;
+
+    .seccioncentral{
+        justify-items: center;
+
+        .productos-inicio {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            gap: 15px;
+            margin-top: 25px;
+           @extend .borde-basico;
+            font-size: 25px;
+        }
+        
+    }
 }
 
- 
-.seccioncentral{
-    background-color: bisque;
-    justify-items: center;
-}
-
-.productos-inicio {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 15px;
-    margin-top: 25px;
-    border-radius: 20px;
-    padding: 15px;
-    background-image: linear-gradient(to right top, #16d4c8, #00c8d5, #00bbe0, #00ace4, #009ce2, #0f9fe5, #18a2e8, #20a5eb, #00bcf4, #00d2f8, #20e7f6, #5ffbf1);
-    font-size: 25px;
-}
-
-.inicio , .inicio-video {
+.inicio {
     width: 550px;
     height: 350px;
-    border-radius: 15px;
-    border: 10px solid rgb(9, 150, 150);
+    @include bordes;
     margin-top: 25px;
-
+    
 }
+
 
 .comprar {
     text-decoration: none;
@@ -56,4 +57,26 @@ b:hover {
     cursor: pointer;
 }
 
+
+/* acomodar las areas */
+@media  (min-width:400px) and (max-width:500px) {
+
+    .inicio  {
+        width: 305px;
+    }
+
+    .inicio-video{
+        width: 280px;
+        height: 350px;
+    }
+
+    .ul {
+        padding: 10px;
+    }
+
+    footer {
+        margin: auto;
+    }
+
+}
 

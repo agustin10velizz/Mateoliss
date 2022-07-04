@@ -1,39 +1,43 @@
+@import "../mixin";
+@import "../base/extend";
+
+
 .tips-titulo {
     text-align: center;
     font-size: 15px;
     margin: auto;
     padding-top: 10px;
-    background-color: bisque;
+    background-color: $colorSecundario;
     border-radius: 50px;
     text-align: center;
-}
-
-/*  
-.tips-texto {
-    margin-top: 0px;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 20px;
-    border-radius: 15%;
-   
-
-}
-*/
-
-
-.tips-videos {
-    padding-top: 15px;
-    margin-bottom: 10px;
-    margin-left: 100px;
 
 }
 
-.fondo-tips {
-    background-color: bisque;
-}
+        .fondo-tips {
+            background-color: $colorSecundario;
 
-.videos {
-    margin: 2px;
-    border-radius: 15px;
-    border: 10px solid rgb(22, 197, 159);
+            .tips-videos {
+                padding-top: 15px;
+                margin-bottom: 10px;
+                margin-left: 100px;
+                
+                .videos {
+                    margin: 2px;
+                    @include bordes;
+                }
+                
+             }
+        }
+    
+
+@media  (min-width:400px) and (max-width:600px){
+    .videos{
+        width: 250px;
+        height: 250px;
+    }
+
+
+    footer{
+        margin: auto;
+    }
 }
