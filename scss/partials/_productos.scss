@@ -9,13 +9,13 @@
     margin: auto;
     font-size: 20px;
     background-color: $colorSecundario;
+    font-family: 'Rubik', sans-serif;
 
 .productos-comprar {
         text-align: center;
         margin: 50px;
         @extend .borde-basico;
-        font-family: 'Varela Round', sans-serif;
-    }
+        font-family: 'Roboto Slab', serif;   }
     
 }
 
