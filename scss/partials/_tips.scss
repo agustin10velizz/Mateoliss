@@ -2,25 +2,22 @@
 @import "../base/extend";
 
 
-.tips-titulo {
+.titulo {
     text-align: center;
     font-size: 15px;
-    margin: auto;
-    padding-top: 10px;
-    background-color: $colorSecundario;
-    border-radius: 50px;
-    text-align: center;
+    padding: 10px;
     font-family: 'Rubik', sans-serif;
 
 }
 
         .fondo-tips {
             background-color: $colorSecundario;
+            
 
             .tips-videos {
                 padding-top: 15px;
                 margin-bottom: 10px;
-                margin-left: 100px;
+                margin-left: 105px;
                 
                 .videos {
                     margin: 2px;
@@ -31,13 +28,34 @@
         }
     
 
-@media  (min-width:400px) and (max-width:600px){
+@media  (min-width:400px) and (max-width:670px){
     .videos{
         width: 250px;
         height: 250px;
     }
 
+    .tips-videos{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+    footer{
+        margin: auto;
+    }
+}
+
+@media (min-width: 250px) and (max-width:400px){
+    .videos{
+        width: 200px;
+        height: 200px;
+       
+    }
+
+    .tips-videos{
+        margin-left: 50px;
+    }
+    
+    
     footer{
         margin: auto;
     }

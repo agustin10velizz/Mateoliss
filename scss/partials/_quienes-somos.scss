@@ -2,7 +2,7 @@
 
 .nosotros {
     margin: auto;
-    font-size: 40px;
+    font-size: 35px;
     padding: 30px;
     text-align: center;
     background-color:  $colorSecundario;
@@ -45,3 +45,8 @@
   
 }
 
+@media (max-width:400px) {
+    .texto-nosotros{
+        font-size: 10px;
+    }
+}

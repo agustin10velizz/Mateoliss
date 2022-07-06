@@ -63,6 +63,10 @@ b:hover {
   footer {
     margin: auto; } }
 
+@media (max-width: 580px) {
+  .inicio {
+    width: 300px; } }
+
 .borde-basico, .subtitulo .seccioncentral .productos-inicio, .productos-titulo .productos-comprar {
   border-radius: 20px;
   padding: 15px;
@@ -89,7 +93,7 @@ b:hover {
 
 .nosotros {
   margin: auto;
-  font-size: 40px;
+  font-size: 35px;
   padding: 30px;
   text-align: center;
   background-color: #faedcd; }
@@ -115,6 +119,10 @@ b:hover {
 @media (min-width: 400px) and (max-width: 700px) {
   .texto-nosotros {
     font-size: 15px; } }
+
+@media (max-width: 400px) {
+  .texto-nosotros {
+    font-size: 10px; } }
 
 .inicio-contacto {
   background-color: #faedcd;
@@ -142,14 +150,10 @@ b:hover {
   padding: 15px;
   background-color: #48cae4; }
 
-.tips-titulo {
+.titulo {
   text-align: center;
   font-size: 15px;
-  margin: auto;
-  padding-top: 10px;
-  background-color: #faedcd;
-  border-radius: 50px;
-  text-align: center;
+  padding: 10px;
   font-family: 'Rubik', sans-serif; }
 
 .fondo-tips {
@@ -157,16 +161,28 @@ b:hover {
   .fondo-tips .tips-videos {
     padding-top: 15px;
     margin-bottom: 10px;
-    margin-left: 100px; }
+    margin-left: 105px; }
     .fondo-tips .tips-videos .videos {
       margin: 2px;
       border-radius: 15px;
       border: 10px solid #099696; }
 
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 670px) {
   .videos {
     width: 250px;
     height: 250px; }
+  .tips-videos {
+    display: flex;
+    flex-wrap: wrap; }
+  footer {
+    margin: auto; } }
+
+@media (min-width: 250px) and (max-width: 400px) {
+  .videos {
+    width: 200px;
+    height: 200px; }
+  .tips-videos {
+    margin-left: 50px; }
   footer {
     margin: auto; } }
 
