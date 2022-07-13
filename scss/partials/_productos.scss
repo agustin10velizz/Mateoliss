@@ -2,6 +2,7 @@
 @import "../base/variables";
 @import "../base/extend";
 
+
 .productos-titulo  {
     text-align: center;
     padding: 12px;
@@ -10,14 +11,18 @@
     font-size: 20px;
     background-color: $colorSecundario;
     font-family: 'Rubik', sans-serif;
-    text-shadow: 1px 1px 2px rgb(255, 230, 0);
-
-.productos-comprar {
+    
+    .productos-comprar {
         text-align: center;
         margin: 50px;
         @extend .borde-basico;
-        font-family: 'Roboto Slab', serif;   }
-    
+        font-family: 'Roboto Slab', serif;   
+    }
+}
+
+.seccion-producto{
+    text-shadow: 1px 1px 2px rgb(255, 230, 0);
+
 }
 
 .card{
